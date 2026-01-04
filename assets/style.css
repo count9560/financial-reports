@@ -248,6 +248,48 @@ footer {
     }
 }
 
+/* SEC Original Tables */
+.sec-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+}
+
+.sec-table td,
+.sec-table th {
+    padding: 4px 8px;
+    text-align: right;
+    border-bottom: 1px solid var(--border-color);
+    vertical-align: top;
+}
+
+.sec-table td:first-child {
+    text-align: left;
+    min-width: 300px;
+}
+
+/* Zebra striping - SEC 스타일 */
+.sec-table tr:nth-child(even) {
+    background: #f8f9fa;
+}
+
+.sec-table tr:nth-child(odd) {
+    background: #ffffff;
+}
+
+.sec-table tr:hover {
+    background: #e3f2fd;
+}
+
+.sec-table span {
+    display: inline;
+}
+
+.sec-table p {
+    margin: 0;
+    padding: 0;
+}
+
 /* Print styles */
 @media print {
     body {
