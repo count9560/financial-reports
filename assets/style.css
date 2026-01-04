@@ -248,37 +248,33 @@ footer {
     }
 }
 
-/* SEC Original Tables */
+/* SEC Original Tables - EDGAR 원본 스타일 */
 .sec-table {
     width: 100%;
     border-collapse: collapse;
-    font-size: 13px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10pt;
 }
 
 .sec-table td,
 .sec-table th {
-    padding: 4px 8px;
+    padding: 2px 8px;
     text-align: right;
-    border-bottom: 1px solid var(--border-color);
-    vertical-align: top;
+    vertical-align: bottom;
 }
 
 .sec-table td:first-child {
     text-align: left;
-    min-width: 300px;
+    min-width: 400px;
 }
 
-/* Zebra striping - SEC 스타일 */
-.sec-table tr:nth-child(even) {
-    background: #f8f9fa;
-}
-
+/* Zebra striping - SEC EDGAR 원본 색상 */
 .sec-table tr:nth-child(odd) {
-    background: #ffffff;
+    background: #cceeff;
 }
 
-.sec-table tr:hover {
-    background: #e3f2fd;
+.sec-table tr:nth-child(even) {
+    background: #ffffff;
 }
 
 .sec-table span {
