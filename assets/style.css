@@ -248,34 +248,6 @@ footer {
     }
 }
 
-/* SEC Original Tables */
-.sec-table {
-    width: 100%;
-    border-collapse: collapse;
-    font-size: 13px;
-}
-
-.sec-table td,
-.sec-table th {
-    padding: 4px 8px;
-    text-align: right;
-    border-bottom: 1px solid var(--border-color);
-    vertical-align: top;
-}
-
-.sec-table td:first-child {
-    text-align: left;
-    min-width: 300px;
-}
-
-.sec-table tr:hover {
-    background: var(--bg-secondary);
-}
-
-.sec-table span {
-    display: inline;
-}
-
 /* Print styles */
 @media print {
     body {
