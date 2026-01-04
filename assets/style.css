@@ -266,14 +266,16 @@ footer {
 .sec-table td:first-child {
     text-align: left;
     min-width: 400px;
+    position: static;
+    background: inherit !important;
 }
 
 /* Zebra striping - SEC EDGAR 원본 색상 */
-.sec-table tr:nth-child(odd) {
+.sec-table tr:nth-child(odd) td {
     background: #cceeff;
 }
 
-.sec-table tr:nth-child(even) {
+.sec-table tr:nth-child(even) td {
     background: #ffffff;
 }
 
